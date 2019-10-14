@@ -152,6 +152,122 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-java面向对象" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/10/14/java面向对象/">java面向对象</a>
+    </h1>
+  
+
+        
+        <a href="/2019/10/14/java面向对象/" class="archive-article-date">
+  	<time datetime="2019-10-14T12:02:34.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-14</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>public  class Animal {</p>
+<p> 2     public void speak() {</p>
+<p> 3         System.out.println(“我是动物”);</p>
+<p> 4     }</p>
+<p> 5 }</p>
+<p> 6 </p>
+<p> 7 class Dog extends Animal {</p>
+<p> 8     public void speak() {</p>
+<p> 9         System.out.println(“汪汪…”);</p>
+<p>10     }</p>
+<p>11 }</p>
+<p>12 </p>
+<p>13 class Cat extends Animal {</p>
+<p>14     public void speak() {</p>
+<p>15         System.out.println(“喵喵…”);</p>
+<p>16     }</p>
+<p>17 }</p>
+<p>18 </p>
+<p>19 public class Test {</p>
+<p>20     public static void main(String args[]) {</p>
+<p>21         Animal animal = new Dog();</p>
+<p>22         animal.speak(); // 汪汪…</p>
+<p>23         animal = new Cat(); </p>
+<p>24         animal.speak();// 喵喵…</p>
+<p>25    }</p>
+<p>26 }</p>
+<p>稍微复杂一点的案例:</p>
+<p> 1 class Animal {</p>
+<p> 2     public void speak1() {</p>
+<p> 3         System.out.println(“我是动物..”);</p>
+<p> 4         speak2();</p>
+<p> 5     }</p>
+<p> 6     private void speak2() {</p>
+<p> 7         System.out.println(“我是一只凶猛的动物”);</p>
+<p> 8     }</p>
+<p> 9 }</p>
+<p>10 </p>
+<p>11 class Dog extends Animal {</p>
+<p>12     public void speak1(String name) {</p>
+<p>13         System.out.println(“汪汪…”);</p>
+<p>14     }</p>
+<p>15     public void speak2() {</p>
+<p>16         System.out.println(“我是一只泰迪”);</p>
+<p>17     }</p>
+<p>18 }</p>
+<p>19 </p>
+<p>20 public class Test {</p>
+<p>21     public static void main(String args[]) {</p>
+<p>22         Animal animal = new Dog();</p>
+<p>23         animal.speak1(); </p>
+<p>24         // 我是动物..</p>
+<p>25         // 我是一只凶猛的动物</p>
+<p>26     }</p>
+<p>27 }</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/10/14/java面向对象/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
